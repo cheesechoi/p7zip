@@ -18,6 +18,7 @@ XX=/usr/bin/llvm-g++
 CC=/usr/bin/llvm-gcc
 
 LINK_SHARED=-bundle
+#LINK_SHARED=-dynamiclib
 
 LOCAL_LIBS=-framework CoreFoundation
 LOCAL_LIBS_DLL=$(LOCAL_LIBS)

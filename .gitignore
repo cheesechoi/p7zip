@@ -1,0 +1,8 @@
+
+*.o
+*.swp
+
+bin/*
+
+7zDesktop
+readme.txt

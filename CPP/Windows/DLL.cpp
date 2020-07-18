@@ -22,11 +22,34 @@
 #define NEED_NAME_WINDOWS_TO_UNIX
 #include "myPrivate.h"
 
-// #define TRACEN(u) u;
-#define TRACEN(u)  /* */
+#define TRACEN(u) u;
+//#define TRACEN(u)  /* */
 
 namespace NWindows {
 namespace NDLL {
+
+namespace {
+static const char * DyldOFIErrorMsg(
+    int err)
+{
+  switch(err) {
+    case NSObjectFileImageSuccess:
+	return NULL;
+    case NSObjectFileImageFailure:
+	return "object file setup failure";
+    case NSObjectFileImageInappropriateFile:
+	return "not a Mach-O MH_BUNDLE file";
+    case NSObjectFileImageArch:
+	return "no object for this architecture";
+    case NSObjectFileImageFormat:
+	return "bad object file format";
+    case NSObjectFileImageAccess:
+	return "can't read object file";
+    default:
+	return "unknown error";
+    }
+}
+}
 
 bool CLibrary::Free()
 {
@@ -113,7 +136,7 @@ bool CLibrary::Load(LPCTSTR lpLibFileName)
      handler = (HMODULE)NSLinkModule(image,name,NSLINKMODULE_OPTION_RETURN_ON_ERROR
            | NSLINKMODULE_OPTION_PRIVATE | NSLINKMODULE_OPTION_BINDNOW);
   } else {
-     TRACEN((printf("NSCreateObjectFileImageFromFile(%s) : ERROR\n",name)))
+     TRACEN((printf("NSCreateObjectFileImageFromFile(%s) : ERROR, %s\n",name, DyldOFIErrorMsg(nsret))))
   }
 #elif ENV_BEOS
   // normalize path (remove things like "./", "..", etc..), otherwise it won't work
@@ -166,11 +189,11 @@ TRACEN((printf("load_add_on(%s)=%d\n",p.Path(),(int)image)))
     int num_err;
     const char *file,*err;
     NSLinkEditError(&c,&num_err,&file,&err);
-    printf("Can't load '%ls' (%s)\n", lpLibFileName,err);
+    printf("Can't load '%ls' (%s)1\n", lpLibFileName,err);
 #elif ENV_BEOS
-    printf("Can't load '%ls' (%s)\n", lpLibFileName,strerror(err));
+    printf("Can't load '%ls' (%s)2\n", lpLibFileName,strerror(err));
 #else
-    printf("Can't load '%ls' (%s)\n", lpLibFileName,dlerror());
+    printf("Can't load '%ls' (%s)3\n", lpLibFileName,dlerror());
 #endif
   }
 
