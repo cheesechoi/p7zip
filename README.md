@@ -4,6 +4,19 @@ P7Zip Desktop is a fork of P7zip (7zip for *nix) to allow its use through a conv
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/p7zip-desktop)
 
+
+# Under construction
+
+Now I trying to use 7zFM as file manager on MacOS.
+
+# Setup for MacOs
+
+### Usage
+
+`make 7zFM` to build,
+`./bin/7zFM_do_not_use` to run. (cannot use through application like *.app yet.)
+
+
 LICENSE
 =======
 P7Zip Desktop, desktop edition of P7zip
@@ -21,3 +34,5 @@ P7Zip Desktop, desktop edition of P7zip
     You should have received a copy of the GNU Lesser General Public
     License along with this library; if not, write to the Free Software
     Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
+
+
