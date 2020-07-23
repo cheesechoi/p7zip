@@ -14,7 +14,10 @@ Now I trying to use 7zFM as file manager on MacOS.
 ### Usage
 
 `make 7zFM` to build,
-`./bin/7zFM_do_not_use` to run. (cannot use through application like *.app yet.)
+
+`./bin/7zFM_do_not_use` to run.
+
+`make app` to build app, but it's not work properly yet.
 
 
 LICENSE
