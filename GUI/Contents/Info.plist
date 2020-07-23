@@ -34,7 +34,7 @@
 				<string>BZIP2</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-bz2.icns</string>
+			<string>/System/Library/CoreServices/Applications/Archive Utility.app/Contents/Resources/au-bz2.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>BZip2</string>
 			<key>CFBundleTypeRole</key>
@@ -53,7 +53,7 @@
 				<string>TBZIP2</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-tbz2.icns</string>
+			<string>/System/Library/CoreServices/Applications/Archive Utility.app/Contents/Resources/au-tbz2.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>TBZip2</string>
 			<key>CFBundleTypeRole</key>
@@ -72,7 +72,7 @@
 				<string>BZIP</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-bz.icns</string>
+			<string>/System/Library/CoreServices/Applications/Archive Utility.app/Contents/Resources/au-bz.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>BZip</string>
 			<key>CFBundleTypeRole</key>
@@ -91,7 +91,7 @@
 				<string>TBZIP</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-tbz.icns</string>
+			<string>/System/Library/CoreServices/Applications/Archive Utility.app/Contents/Resources/au-tbz.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>TBzip</string>
 			<key>CFBundleTypeRole</key>
@@ -110,7 +110,7 @@
 				<string>GZIP</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-gz.icns</string>
+			<string>/System/Library/CoreServices/Applications/Archive Utility.app/Contents/Resources/au-gz.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>GZip</string>
 			<key>CFBundleTypeRole</key>
@@ -129,7 +129,7 @@
 				<string>TGZIP</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-tgz.icns</string>
+			<string>/System/Library/CoreServices/Applications/Archive Utility.app/Contents/Resources/au-tgz.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>TGZip</string>
 			<key>CFBundleTypeRole</key>
@@ -146,7 +146,7 @@
 				<string>TAR</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-tar.icns</string>
+			<string>/System/Library/CoreServices/Applications/Archive Utility.app/Contents/Resources/au-tar.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Tar</string>
 			<key>CFBundleTypeRole</key>
@@ -163,7 +163,7 @@
 				<string>CPIO</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-cpio.icns</string>
+			<string>/System/Library/CoreServices/Applications/Archive Utility.app/Contents/Resources/au-cpio.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>CPIO</string>
 			<key>CFBundleTypeRole</key>
@@ -180,7 +180,7 @@
 				<string>CPGZ</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-cpgz.icns</string>
+			<string>/System/Library/CoreServices/Applications/Archive Utility.app/Contents/Resources/au-cpgz.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>CPGZ</string>
 			<key>CFBundleTypeRole</key>
@@ -214,7 +214,7 @@
 				<string>PAX</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-pax.icns</string>
+			<string>/System/Library/CoreServices/Applications/Archive Utility.app/Contents/Resources/au-pax.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Pax</string>
 			<key>CFBundleTypeRole</key>
@@ -298,7 +298,7 @@
 				<string>ZIP</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>/System/Library/CoreServices/Archive Utility.app/Contents/Resources/bah-zip.icns</string>
+			<string>/System/Library/CoreServices/Applications/Archive Utility.app/Contents/Resources/au-zip.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Zip</string>
 			<key>CFBundleTypeRole</key>
@@ -350,7 +350,7 @@
 				<string>*</string>
 			</array>
 			<key>CFBundleTypeName</key>
-			<string>Archive</string>
+			<string>Applications/Archive</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>LSTypeIsPackage</key>

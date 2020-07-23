@@ -43,7 +43,7 @@ app: common 7zFM 7zG 7z sfx
 	cp -rp GUI/Contents  p7zip.app/
 	$(MKDIR)             p7zip.app/Contents
 	$(MKDIR)             p7zip.app/Contents/MacOS
-	cp bin/7zFM_do_not_use  p7zip.app/Contents/MacOS/
+	cp bin/7zFM_do_not_use  p7zip.app/Contents/MacOS/7zFM
 	cp bin/7zG           p7zip.app/Contents/MacOS/
 	cp bin/7z.so         p7zip.app/Contents/MacOS/
 	cp bin/7zCon.sfx     p7zip.app/Contents/MacOS/

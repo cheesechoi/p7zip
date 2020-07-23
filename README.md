@@ -13,11 +13,7 @@ Now I trying to use 7zFM as file manager on MacOS.
 
 ### Usage
 
-`make 7zFM` to build,
-
-`./bin/7zFM_do_not_use` to run.
-
-`make app` to build app, but it's not work properly yet.
+`make app` to build, and use `p7zip.app`
 
 
 LICENSE

@@ -6,3 +6,4 @@ bin/*
 
 7zDesktop
 readme.txt
+*.app
